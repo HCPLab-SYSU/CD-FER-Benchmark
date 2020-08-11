@@ -1,6 +1,9 @@
 # Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition
 
 Implementation of papers:   
+- [Look into Cross-Domain Facial Expression Recognition: A New Method and Fair Evaluation]   
+  Technical Report.   
+  Tianshui Chen, Tao Pu, Yuan Xie, Hefeng Wu, Lingbo Liu, Liang Lin.
 
 - [Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition](https://arxiv.org/abs/2008.00859)   
   ACM International Conference on Multimedia (ACM MM), 2020.   
