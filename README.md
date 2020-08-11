@@ -214,6 +214,6 @@ bash Train.sh
 ## Contributors
 For any questions, feel free to open an issue or contact us:    
 
-* phoenixsysu@gmail.com
 * tianshuichen@gmail.com
 * putao537@gmail.com
+* phoenixsysu@gmail.com
