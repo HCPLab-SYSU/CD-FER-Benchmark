@@ -20,7 +20,7 @@ PS: We also provide docker image for this project, [click here](https://hub.dock
 
 ## Datasets
 
-You can download datasets in [Baidu Drive](https://pan.baidu.com/s/1d8szY1p1Js7gtbgV5Eg04Q) (password: c7xi) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWRdJfUlTBtG50om), which includes CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF/AFED.   
+You can download datasets in [Baidu Drive](https://pan.baidu.com/s/1d8szY1p1Js7gtbgV5Eg04Q) (password: c7xi) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWRdJfUlTBtG50om), which includes CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF/AFE.   
 
 PS : In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF.
 
@@ -104,7 +104,7 @@ bash Train.sh
 | **SWD** | 75.19 | 54.93 | 52.06 | 55.84 | 68.35 | 61.27 |
 | **Ours** | **85.27** | **61.50** | **56.43** | **58.95** | <u>68.50</u> | **66.13** |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -138,7 +138,7 @@ bash Train.sh
 | **SWD** | 72.09 | 53.52 | 49.31 | 53.70 | 65.85 | 58.89 |
 | **Ours** | **77.52** | **61.03** | **52.75** | **54.94** | **69.70** | **63.19** |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -172,7 +172,7 @@ bash Train.sh
 | **SWD** | 68.22 | <u>55.40</u> | 43.58 | <u>50.30</u> | 60.04 | <u>55.51</u> |
 | **Ours** | **72.87** | **55.40** | **45.64** | **51.05** | **63.94** | **57.78** |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -199,7 +199,7 @@ bash Train.sh
 | **ResNet-18** | 69.43 | 51.88 | 47.94 | 51.72 | 61.26 | 56.45 |  
 | **MobileNet V2** | 60.78 | 45.15 | 39.59 | 47.92 | 56.46 | 49.98 |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
