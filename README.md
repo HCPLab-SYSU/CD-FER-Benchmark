@@ -212,7 +212,7 @@ bash Train.sh
 }
 ```
 
-## Contributing
+## Contributors
 For any questions, feel free to open an issue or contact us:    
 
 * tianshuichen@gmail.com
