@@ -204,7 +204,17 @@ bash Train.sh
 | **MobileNet V2** | 63.57 | 48.46 | 40.14 | 44.91 | 56.34 | 50.68 |
 
 ## Citation
-To Be Done.
+
+```
+@misc{xie2020adversarial,
+    title={Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition},
+    author={Yuan Xie and Tianshui Chen and Tao Pu and Hefeng Wu and Liang Lin},
+    year={2020},
+    eprint={2008.00859},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 
 ## Contributing
 For any questions, feel free to open an issue or contact us:    
