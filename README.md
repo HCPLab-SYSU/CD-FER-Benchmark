@@ -15,18 +15,18 @@ Implementation of papers:
 
 ## Environment
 Ubuntu 16.04 LTS, Python 3.5, PyTorch 1.3   
-PS: We also provide docker image for this project, [click here](https://hub.docker.com/r/putao3/images/tags). (Tag: py3-pytorch1.3-agra)
+Note: We also provide docker image for this project, [click here](https://hub.docker.com/r/putao3/images/tags). (Tag: py3-pytorch1.3-agra)
 
 
 ## Datasets
 
 You can download datasets in [Baidu Drive](https://pan.baidu.com/s/1d8szY1p1Js7gtbgV5Eg04Q) (password: c7xi) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWRdJfUlTBtG50om), which includes CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF/AFE.   
 
-PS : In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF.
+Note: In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF.
 
 ## Pre-Train Model
 You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglPIUGdPrKCkUEmz9pKQQ) (password: tzrf) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWNaGwvr6gfbeTGz).   
-PS: To replace backbone of each methods, you should modify and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)** in the folder where you want to use the method.
+Note: To replace backbone of each methods, you should modify and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)** in the folder where you want to use the method.
 
 ## Usage
 
