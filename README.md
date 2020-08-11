@@ -1,6 +1,10 @@
-# Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition
+# Cross Domain Facial Expression Recognition Benchmark
 
 Implementation of papers:   
+- [Look into Cross-Domain Facial Expression Recognition: A New Method and Fair Evaluation]   
+  Technical Report.   
+  Tianshui Chen, Tao Pu, Yuan Xie, Hefeng Wu, Lingbo Liu, Liang Lin.
+
 - [Look into Cross-Domain Facial Expression Recognition: A New Method and Fair Evaluation]   
   Technical Report.   
   Tianshui Chen, Tao Pu, Yuan Xie, Hefeng Wu, Lingbo Liu, Liang Lin.
@@ -19,12 +23,12 @@ PS: We also provide docker image for this project, [click here](https://hub.dock
 
 ## Datasets
 
-You can download datasets in [Baidu Drive](https://pan.baidu.com/s/1d8szY1p1Js7gtbgV5Eg04Q) (password: c7xi) and [OneDrive]() (password: xxxx), which includes CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF/AFED.   
+You can download datasets in [Baidu Drive](https://pan.baidu.com/s/1d8szY1p1Js7gtbgV5Eg04Q) (password: c7xi) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWRdJfUlTBtG50om), which includes CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF/AFE.   
 
 PS : In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF.
 
 ## Pre-Train Model
-You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglPIUGdPrKCkUEmz9pKQQ) (password: tzrf) and [OneDrive]() (password: xxx).   
+You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglPIUGdPrKCkUEmz9pKQQ) (password: tzrf) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWNaGwvr6gfbeTGz).   
 PS: To replace backbone of each methods, you should modify and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)** in the folder where you want to use the method.
 
 ## Usage
@@ -103,7 +107,7 @@ bash Train.sh
 | **SWD** | 75.19 | 54.93 | 52.06 | 55.84 | 68.35 | 61.27 |
 | **Ours** | **85.27** | **61.50** | **56.43** | **58.95** | <u>68.50</u> | **66.13** |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -137,7 +141,7 @@ bash Train.sh
 | **SWD** | 72.09 | 53.52 | 49.31 | 53.70 | 65.85 | 58.89 |
 | **Ours** | **77.52** | **61.03** | **52.75** | **54.94** | **69.70** | **63.19** |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -171,7 +175,7 @@ bash Train.sh
 | **SWD** | 68.22 | <u>55.40</u> | 43.58 | <u>50.30</u> | 60.04 | <u>55.51</u> |
 | **Ours** | **72.87** | **55.40** | **45.64** | **51.05** | **63.94** | **57.78** |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -198,7 +202,7 @@ bash Train.sh
 | **ResNet-18** | 69.43 | 51.88 | 47.94 | 51.72 | 61.26 | 56.45 |  
 | **MobileNet V2** | 60.78 | 45.15 | 39.59 | 47.92 | 56.46 | 49.98 |
 
-#### Souce Domain: AFED
+#### Souce Domain: AFE
 
 | Methods | CK+ | JAFFE | SFEW2.0 | FER2013 | ExpW | Mean |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -207,7 +211,17 @@ bash Train.sh
 | **MobileNet V2** | 63.57 | 48.46 | 40.14 | 44.91 | 56.34 | 50.68 |
 
 ## Citation
-To Be Done.
+
+```
+@misc{xie2020adversarial,
+    title={Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition},
+    author={Yuan Xie and Tianshui Chen and Tao Pu and Hefeng Wu and Liang Lin},
+    year={2020},
+    eprint={2008.00859},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+```
 
 ## Contributing
 For any questions, feel free to open an issue or contact us:    
