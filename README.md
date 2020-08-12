@@ -1,6 +1,7 @@
 # Cross Domain Facial Expression Recognition Benchmark
 
 Implementation of papers:   
+
 - Look into Cross-Domain Facial Expression Recognition: A New Method and Fair Evaluation   
   Technical Report.   
   Tianshui Chen, Tao Pu, Yuan Xie, Hefeng Wu, Lingbo Liu, Liang Lin.
@@ -211,9 +212,9 @@ bash Train.sh
 }
 ```
 
-## Contributing
+## Contributors
 For any questions, feel free to open an issue or contact us:    
 
-* phoenixsysu@gmail.com
 * tianshuichen@gmail.com
 * putao537@gmail.com
+* phoenixsysu@gmail.com
