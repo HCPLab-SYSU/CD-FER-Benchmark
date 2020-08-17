@@ -1,5 +1,5 @@
-Log_Name='ResNet50_CropNet_GCNwithIntraMatrixAndInterMatrix_useCluster_withoutAFN_transferToTargetDomain_RAFtoAFED'
-Resume_Model='ResNet50_CropNet_GCNwithIntraMatrixAndInterMatrix_useCluster_withoutAFN_trainOnSourceDomain_RAFtoAFED.pkl'
+Log_Name='ResNet50_CropNet_withoutAFN_transferToTargetDomain_RAFtoAFED'
+Resume_Model='ResNet50_CropNet_withoutAFN_trainOnSourceDomain_RAFtoAFED.pkl'
 OutputPath='.'
 GPU_ID=0
 Backbone='ResNet50'
@@ -24,13 +24,13 @@ weight_decay=0.0001
 isTest='False'
 showFeature='False'
 class_num=7
-useIntraGCN='True'
-useInterGCN='True'
+useIntraGCN='False'
+useInterGCN='False'
 useLocalFeature='True'
 useRandomMatrix='False'
 useAllOneMatrix='False'
 useCov='False'
-useCluster='True'
+useCluster='False'
     
 OMP_NUM_THREADS=16 MKL_NUM_THREADS=16 CUDA_VISIBLE_DEVICES=${GPU_ID} python3 TransferToTargetDomain.py \ 
     --Log_Name ${Log_Name} \ 

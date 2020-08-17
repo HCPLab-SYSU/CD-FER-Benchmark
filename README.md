@@ -34,47 +34,6 @@ You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglP
 
 Before run these script files, you should download datasets and pre-train model, and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)**.
 
-### Run AGRA
-```bash
-cd AGRA
-bash TrainOnSourceDomain.sh     # Train Model On Source Domain
-bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
-```
-
-### Run SAFN
-```bash
-cd AGRA
-bash TrainWithSAFN.sh
-```
-
-### Run SWD
-```bash
-cd SWD
-bash Train.sh
-```
-
-### Run LPL
-```bash
-cd LPL
-bash Train.sh
-```
-
-### Run DETN & ECAN
-```bash
-cd AGRA
-bash TrainOnSourceDomain.sh
-
-# Set Lambda = 1, if you want use ECAN.
-# Set Lambda = 0, if you want use DETN.
-bash TransferToTargetDomain.sh 
-```
-
-### Run FTDNN
-```bash
-cd FTDNN
-bash Train.sh
-```
-
 ### Run ICID
 ```bash
 cd ICID
@@ -85,6 +44,58 @@ bash Train.sh
 ```bash
 cd DFA
 bash Train.sh
+```
+
+### Run LPL
+```bash
+cd LPL
+bash Train.sh
+```
+
+### Run DETN 
+```bash
+cd DETN
+bash TrainOnSourceDomain.sh     # Train Model On Source Domain
+bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
+```
+
+### Run FTDNN
+```bash
+cd FTDNN
+bash Train.sh
+```
+
+### Run ECAN
+```bash
+cd ECAN
+bash TrainOnSourceDomain.sh     # Train Model On Source Domain
+bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
+```
+
+### Run CADA
+```bash
+cd CADA
+bash TrainOnSourceDomain.sh     # Train Model On Source Domain
+bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
+```
+
+### Run SAFN
+```bash
+cd SAFN
+bash TrainWithSAFN.sh
+```
+
+### Run SWD
+```bash
+cd SWD
+bash Train.sh
+```
+
+### Run AGRA
+```bash
+cd AGRA
+bash TrainOnSourceDomain.sh     # Train Model On Source Domain
+bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
 ```
 
 ## Result
