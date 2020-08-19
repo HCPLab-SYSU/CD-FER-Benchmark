@@ -46,4 +46,4 @@ if numOfLayer == 50:
     
 elif numOfLayer == 18:
     torch.save(model.state_dict(), './preTrainedModel/ir18_lfw_112_CropNet_GCNwithIntraMatrixAndInterMatrix_useCluster.pkl')
-     # torch.save(model.state_dict(), './preTrainedModel/ir18_lfw_112_onlyGlobal.pkl')
+    # torch.save(model.state_dict(), './preTrainedModel/ir18_lfw_112_onlyGlobal.pkl')

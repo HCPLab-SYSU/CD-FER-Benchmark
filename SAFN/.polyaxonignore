@@ -1,0 +1,15 @@
+.git
+.eggs
+eggs
+lib
+lib64
+parts
+sdist
+var
+*.pyc
+*.swp
+.DS_Store
+./.polyaxon
+./.vscode
+./ployaxon_yaml
+upload_polyaxon.sh

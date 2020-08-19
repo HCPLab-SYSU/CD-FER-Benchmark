@@ -2,7 +2,7 @@ import torch
 
 from ResNet import IR
 
-numOfLayer = 18 # [18, 50]
+numOfLayer = 50 # [18, 50]
 model = IR(numOfLayer)
 
 model_dict = model.state_dict()

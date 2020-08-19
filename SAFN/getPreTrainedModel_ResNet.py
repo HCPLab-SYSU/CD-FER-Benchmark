@@ -1,9 +1,10 @@
 import torch
 
-from ResNet import IR
+from ResNet import IR, IR_onlyGlobal
 
 numOfLayer = 50 # [18, 50]
-model = IR(numOfLayer)
+model = IR(numOfLayer=numOfLayer, useIntraGCN=False, useInterGCN=False, useRandomMatrix=False, useAllOneMatrix=False, useCov=False, useCluster=False)
+# model = IR_onlyGlobal(numOfLayer=numOfLayer)
 
 model_dict = model.state_dict()
 checkpoint = torch.load('../preTrainedModel/backbone_ir50_ms1m_epoch120.pth') if numOfLayer == 50 else \
@@ -18,7 +19,6 @@ indexToLayer = {'0':'layer1.0.', '1':'layer1.1.', '2':'layer1.2.', \
                 '4':'layer3.0.', '5':'layer3.1.', \
                 '6':'layer4.0.', '7':'layer4.1.'}
 
-
 newCheckpoint = {}
 for key, value in checkpoint.items():
     subStr = key.split('.',2)
@@ -32,7 +32,7 @@ for key, value in checkpoint.items():
 
 for key, value in model_dict.items():
     subStr = key.split('.',2)
-    if subStr[0]=='fc1' or subStr[0]=='fc2' or \
+    if subStr[0]=='fc' or subStr[0]=='loc_fc' or \
        subStr[0]=='Crop_Net' or subStr[0]=='GCN' or \
        subStr[0]=='SourceMean' or subStr[0]=='TargetMean' or \
        subStr[0]=='SourceBN' or subStr[0]=='TargetBN' or \
@@ -40,7 +40,10 @@ for key, value in model_dict.items():
         newCheckpoint[key] = value
 
 model.load_state_dict(newCheckpoint)
-if numOfLayer == 18:
-    torch.save(model.state_dict(),'./preTrainedModel/ir18_lfw_112_CropNet.pkl')
-elif numOfLayer == 50:
-    torch.save(model.state_dict(),'./preTrainedModel/ir50_ms1m_112_CropNet.pkl')
+if numOfLayer == 50:
+    torch.save(model.state_dict(), './preTrainedModel/ir50_ms1m_112_CropNet.pkl')
+    # torch.save(model.state_dict(), './preTrainedModel/ir50_ms1m_112_onlyGlobal.pkl')
+    
+elif numOfLayer == 18:
+    torch.save(model.state_dict(), './preTrainedModel/ir18_lfw_112_CropNet.pkl')
+     # torch.save(model.state_dict(), './preTrainedModel/ir18_lfw_112_onlyGlobal.pkl')
