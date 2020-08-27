@@ -7,7 +7,7 @@ Implementation of papers:
   Tianshui Chen, Tao Pu, Yuan Xie, Hefeng Wu, Lingbo Liu, Liang Lin.
 
 - [Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition](https://arxiv.org/abs/2008.00859)   
-  ACM International Conference on Multimedia (ACM MM), 2020.   
+  ACM International Conference on Multimedia (ACM MM), 2020. (**Oral Presentation**)   
   Yuan Xie, Tianshui Chen, Tao Pu, Hefeng Wu, Liang Lin.
    
 
