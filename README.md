@@ -2,7 +2,9 @@
 
 Implementation of papers:   
 
-- [Look into Cross-Domain Facial Expression Recognition: A New Method and Fair Evaluation](https://arxiv.org/abs/2008.00923)   
+- [Cross-Domain Facial Expression Recognition:
+A Unified Evaluation Benchmark and
+Adversarial Graph Learning](https://arxiv.org/abs/2008.00923)   
   Technical Report.   
   Tianshui Chen, Tao Pu, Yuan Xie, Hefeng Wu, Lingbo Liu, Liang Lin.
 
@@ -215,6 +217,14 @@ bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
 ## Citation
 
 ```
+@article{chen2020cross,
+  title={Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning},
+  author={Chen, Tianshui and Pu, Tao and Xie, Yuan and Wu, Hefeng and Liu, Lingbo and Lin, Liang},
+  journal={arXiv e-prints},
+  pages={arXiv--2008},
+  year={2020}
+}
+
 @inproceedings{xie2020adversarial,
   title={Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition},
   author={Xie, Yuan and Chen, Tianshui and Pu, Tao and Wu, Hefeng and Lin, Liang},
