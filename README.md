@@ -27,6 +27,14 @@ You can download datasets in [Baidu Drive](https://pan.baidu.com/s/1d8szY1p1Js7g
 
 **Note:** In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF.
 
+### Agreement
+- The AFE dataset is avaliable for **non-commercial research purposes** only.
+- All images of the AFE dataset are obtained from the Internet which are not property of HCP, Sun Yat-sen University. The HCP is not responsible for the content nor the meaning of these images.
+- You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any commercial purposes, any portion of the images and any portion of derived data.
+- You agree not to further copy, publish or distribute any portion of the AFE dataset. Except, for internal use at a single site within the same organization it is allowed to make copies of the dataset.
+- The HCP reserves the right to terminate your access to the AFE dataset at any time.
+- The face identities are released upon request for research purposes only. Please contact us for details.
+
 ## Pre-Train Model
 You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglPIUGdPrKCkUEmz9pKQQ) (password: tzrf) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWUXNxAceZZvxlLj?e=4UHdhx).   
 
