@@ -23,7 +23,7 @@ Ubuntu 16.04 LTS, Python 3.5, PyTorch 1.3
 
 ## Datasets
 
-To apply for the AFE, please accept and submit the [AFE Database User Agreement](./AFE DATABASE USER AGREEMENT.docx). 
+To apply for the AFE, please accept and submit the [AFE Database User Agreement](./Agreement.docx). 
 
 **Note:** In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF. 
 
