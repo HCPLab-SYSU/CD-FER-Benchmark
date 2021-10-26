@@ -23,9 +23,9 @@ Ubuntu 16.04 LTS, Python 3.5, PyTorch 1.3
 
 ## Datasets
 
-To apply for the AFE, please accept and submit the [AFE Database User Agreement](./Agreement.docx). 
+To apply for the AFE, please accept and submit the [AFE Database User Agreement](./Agreement.pdf). 
 
-**Note:** In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including CK+/SFEW 2.0/FER2013/JAFFE/ExpW/RAF. 
+**Note:** In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including [CK+](http://www.jeffcohn.net/wp-content/uploads/2020/10/2020.10.26_CK-AgreementForm.pdf100.pdf.pdf), [JAFFE](https://zenodo.org/record/3451524#.YXdc1hpBw9E), [SFEW 2.0](https://cs.anu.edu.au/few/AFEW.html), [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data), [ExpW](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), [RAF](http://www.whdeng.cn/raf/model1.html). 
 
 ## Pre-Train Model
 You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglPIUGdPrKCkUEmz9pKQQ) (password: tzrf) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWUXNxAceZZvxlLj?e=4UHdhx).   
