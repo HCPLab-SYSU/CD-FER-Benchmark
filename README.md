@@ -23,7 +23,9 @@ Ubuntu 16.04 LTS, Python 3.5, PyTorch 1.3
 
 To apply for the AFE, please complete the [AFE Database User Agreement](./Agreement.pdf) and submit it to tianshuichen@gmail.com or putao537@gmail.com. 
 
-**Note:** In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including [CK+](http://www.jeffcohn.net/wp-content/uploads/2020/10/2020.10.26_CK-AgreementForm.pdf100.pdf.pdf), [JAFFE](https://zenodo.org/record/3451524#.YXdc1hpBw9E), [SFEW 2.0](https://cs.anu.edu.au/few/AFEW.html), [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data), [ExpW](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), [RAF](http://www.whdeng.cn/raf/model1.html). 
+**Note:** 
+1) **The AFE Database Agreement needs to be signed by the faculty member at a university or college and sent it by email.**
+2) In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including [CK+](http://www.jeffcohn.net/wp-content/uploads/2020/10/2020.10.26_CK-AgreementForm.pdf100.pdf.pdf), [JAFFE](https://zenodo.org/record/3451524#.YXdc1hpBw9E), [SFEW 2.0](https://cs.anu.edu.au/few/AFEW.html), [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data), [ExpW](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), [RAF](http://www.whdeng.cn/raf/model1.html). 
 
 ## Pre-Train Model
 You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglPIUGdPrKCkUEmz9pKQQ) (password: tzrf) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWUXNxAceZZvxlLj?e=4UHdhx).   
