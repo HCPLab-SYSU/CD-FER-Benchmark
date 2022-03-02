@@ -6,7 +6,7 @@ Implementation of papers:
   IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)，2021.   
   Tianshui Chen*, Tao Pu*, Hefeng Wu, Yuan Xie, Lingbo Liu, Liang Lin.
 
-- [Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition](https://arxiv.org/abs/2008.00859)   
+- [Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition](https://dl.acm.org/doi/10.1145/3394171.3413822)   
   ACM International Conference on Multimedia (ACM MM), 2020. (**Oral Presentation**)   
   Yuan Xie, Tianshui Chen, Tao Pu, Hefeng Wu, Liang Lin.
    
