@@ -3,8 +3,8 @@
 Implementation of papers: 
 
 - [Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning](https://ieeexplore.ieee.org/document/9628054)   
-  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)，2021.   
-  Tianshui Chen*, Tao Pu*, Hefeng Wu, Yuan Xie, Lingbo Liu, Liang Lin.
+  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)，2022.   
+  Tianshui Chen*, Tao Pu*, Hefeng Wu, Yuan Xie, Lingbo Liu, Liang Lin. (* equally contributed)
 
 - [Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition](https://dl.acm.org/doi/10.1145/3394171.3413822)   
   ACM International Conference on Multimedia (ACM MM), 2020. (**Oral Presentation**)   
