@@ -217,16 +217,17 @@ bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
 ## Citation
 
 ```
-@article{chen2020cross,
-  title={Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning},
+@article{Chen2022CD-FER,
   author={Chen, Tianshui and Pu, Tao and Wu, Hefeng and Xie, Yuan and Liu, Lingbo and Lin, Liang},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2021},
-  pages={1-1},
-  doi={10.1109/TPAMI.2021.3131222}
-}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning}, 
+  year={2022},
+  volume={44},
+  number={12},
+  pages={9887-9903},
+  doi={10.1109/TPAMI.2021.3131222}}
 
-@inproceedings{xie2020adversarial,
+@inproceedings{Xie2020AGRA,
   title={Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition},
   author={Xie, Yuan and Chen, Tianshui and Pu, Tao and Wu, Hefeng and Lin, Liang},
   booktitle={Proceedings of the 28th ACM international conference on Multimedia},
