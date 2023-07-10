@@ -28,7 +28,7 @@ To apply for the AFE, please complete the [AFE Database User Agreement](./Agreem
 2) In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including [CK+](http://www.jeffcohn.net/wp-content/uploads/2020/10/2020.10.26_CK-AgreementForm.pdf100.pdf.pdf), [JAFFE](https://zenodo.org/record/3451524#.YXdc1hpBw9E), [SFEW 2.0](https://cs.anu.edu.au/few/AFEW.html), [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data), [ExpW](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), [RAF](http://www.whdeng.cn/raf/model1.html). 
 
 ## Pre-Train Model
-You can download pre-train models in [Baidu Drive](https://pan.baidu.com/s/1CglPIUGdPrKCkUEmz9pKQQ) (password: tzrf) and [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWUXNxAceZZvxlLj?e=4UHdhx).   
+You can download pre-train models in [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWUXNxAceZZvxlLj?e=4UHdhx).   
 
 **Note:** To replace backbone of each methods, you should modify and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)** in the folder where you want to use the method.
 
