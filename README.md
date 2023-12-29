@@ -228,12 +228,14 @@ bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
   volume={44},
   number={12},
   pages={9887-9903},
-  doi={10.1109/TPAMI.2021.3131222}}
+  doi={10.1109/TPAMI.2021.3131222}
+}
 
 @inproceedings{Xie2020AGRA,
-  title={Adversarial Graph Representation Adaptation for Cross-Domain Facial Expression Recognition},
+  title={Adversarial graph representation adaptation for cross-domain facial expression recognition},
   author={Xie, Yuan and Chen, Tianshui and Pu, Tao and Wu, Hefeng and Lin, Liang},
   booktitle={Proceedings of the 28th ACM international conference on Multimedia},
+  pages={1255--1264},
   year={2020}
 }
 ```
