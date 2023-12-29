@@ -222,21 +222,24 @@ bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
 ```
 @article{Chen2022CD-FER,
   author={Chen, Tianshui and Pu, Tao and Wu, Hefeng and Xie, Yuan and Liu, Lingbo and Lin, Liang},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   title={Cross-Domain Facial Expression Recognition: A Unified Evaluation Benchmark and Adversarial Graph Learning}, 
-  year={2022},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
   volume={44},
   number={12},
   pages={9887-9903},
+  year={2022},
+  publisher={IEEE},
   doi={10.1109/TPAMI.2021.3131222}
 }
 
 @inproceedings{Xie2020AGRA,
-  title={Adversarial graph representation adaptation for cross-domain facial expression recognition},
   author={Xie, Yuan and Chen, Tianshui and Pu, Tao and Wu, Hefeng and Lin, Liang},
+  title={Adversarial graph representation adaptation for cross-domain facial expression recognition},
   booktitle={Proceedings of the 28th ACM international conference on Multimedia},
+  year={2020},
   pages={1255--1264},
-  year={2020}
+  publisher={Association for Computing Machinery},
+  doi={10.1145/3394171.3413822}
 }
 ```
 
