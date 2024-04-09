@@ -19,7 +19,7 @@ Implementation of papers:
 ## Environment
 Ubuntu 16.04 LTS, Python 3.5, PyTorch 1.3   
 
-**Note:** We also provide docker image for this project, [click here](https://hub.docker.com/r/putao3/images/tags). (Tag: py3-pytorch1.3-agra)
+**Note:** We also provide a docker image for this project, [click here](https://hub.docker.com/r/putao3/images/tags). (Tag: py3-pytorch1.3-agra)
 
 
 ## Datasets
@@ -30,14 +30,9 @@ To apply for the AFE, please complete the [AFE Database User Agreement](./Agreem
 1) **The AFE Database Agreement needs to be signed by the faculty member at a university or college and sent it by email.**
 2) In order to comply with relevant regulations, you need to apply for the image data of the following data sets by yourself, including [CK+](http://www.jeffcohn.net/wp-content/uploads/2020/10/2020.10.26_CK-AgreementForm.pdf100.pdf.pdf), [JAFFE](https://zenodo.org/record/3451524#.YXdc1hpBw9E), [SFEW 2.0](https://cs.anu.edu.au/few/AFEW.html), [FER2013](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data), [ExpW](http://mmlab.ie.cuhk.edu.hk/projects/socialrelation/index.html), [RAF](http://www.whdeng.cn/raf/model1.html). 
 
-## Pre-Train Model
-You can download pre-train models in [OneDrive](https://1drv.ms/u/s!ArFSFaZzVErwgWUXNxAceZZvxlLj?e=4UHdhx).   
-
-**Note:** To replace backbone of each methods, you should modify and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)** in the folder where you want to use the method.
-
 ## Usage
 
-Before run these script files, you should download datasets and pre-train model, and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)**.
+Before running these script files, you should download datasets and pre-train model, and run **getPreTrainedModel\_ResNet.py (or getPreTrainedModel\_MobileNet.py)**.
 
 ### Run ICID
 ```bash
@@ -61,7 +56,7 @@ bash Train.sh
 ```bash
 cd DETN
 bash TrainOnSourceDomain.sh     # Train Model On Source Domain
-bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
+bash TransferToTargetDomain.sh  # Then, Transfer the Model to the Target Domain
 ```
 
 ### Run FTDNN
@@ -74,14 +69,14 @@ bash Train.sh
 ```bash
 cd ECAN
 bash TrainOnSourceDomain.sh     # Train Model On Source Domain
-bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
+bash TransferToTargetDomain.sh  # Then, Transfer the Model to the Target Domain
 ```
 
 ### Run CADA
 ```bash
 cd CADA
 bash TrainOnSourceDomain.sh     # Train Model On Source Domain
-bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
+bash TransferToTargetDomain.sh  # Then, Transfer the Model to the Target Domain
 ```
 
 ### Run SAFN
@@ -100,7 +95,7 @@ bash Train.sh
 ```bash
 cd AGRA
 bash TrainOnSourceDomain.sh     # Train Model On Source Domain
-bash TransferToTargetDomain.sh  # Then, Transfer Model to Target Domain
+bash TransferToTargetDomain.sh  # Then, Transfer the Model to the Target Domain
 ```
 
 ## Result
